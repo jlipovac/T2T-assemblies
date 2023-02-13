@@ -82,11 +82,11 @@ TR** - tandem repeats specific for telomeres (ACCCTAA/TTAGGGT)
 # Assembly  releases 
 ## v0.3
 
-The results of the first rounds of manual scaffolding using assembly v0.2. 
+New assembly is obtained using hifiasm v0.18.5 version then manual scaffolding is performed. 
 
 For manual scaffolding HiC reads were mapped to assembly using [bwa](https://github.com/lh3/bwa). 
 
-Manual scaffolding map created using the [PretextMap](https://github.com/wtsi-hpag/PretextMap) tool. Manual scaffolding performed using the [PretextView](https://github.com/wtsi-hpag/PretextView) tool.
+Manual scaffolding map is created using the [PretextMap](https://github.com/wtsi-hpag/PretextMap) tool. Manual scaffolding is performed using the [PretextView](https://github.com/wtsi-hpag/PretextView) tool.
 
 Haplotype 1 is available at [link](https://durianreferencelbcb.s3.eu-central-1.amazonaws.com/hap1.scaffolds.fasta)
 
@@ -97,7 +97,7 @@ Haplotype 2 is available at [link](https://durianreferencelbcb.s3.eu-central-1.a
 |--------|---------|--------|     
 | NG50 | 23.244.502 | 25.145.390 |
 | # contigs | 370 | 299 |
-| Total length | | |
+| Total length | 788.210.851 | 801.638.393 |
 | # contigs >= 3Mbp | 32 | 36 |
 | Total length* | 703.801.351 | 756.044.094 |
 | # contigs* with TR*** at both endings | 7 | 15 |
